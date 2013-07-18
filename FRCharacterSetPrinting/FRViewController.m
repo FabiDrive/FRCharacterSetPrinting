@@ -7,8 +7,11 @@
 //
 
 #import "FRViewController.h"
+#import "NSCharacterSet+PrintCharacters.h"
 
 @interface FRViewController ()
+
+- (IBAction)alphaNumericCharacterSetPrintClicked:(UIButton *)sender;
 
 @end
 
@@ -26,4 +29,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)alphaNumericCharacterSetPrintClicked:(UIButton *)sender {
+	[NSCharacterSet printAlphanumericCharacterSet];
+}
 @end

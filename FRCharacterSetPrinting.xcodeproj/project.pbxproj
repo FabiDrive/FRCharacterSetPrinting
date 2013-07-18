@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FED32AA17986F30005A00F0 /* NSCharacterSet+PrintCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FED32A917986F30005A00F0 /* NSCharacterSet+PrintCharacters.m */; };
 		4FF238AA179866C00084BB7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF238A9179866C00084BB7D /* UIKit.framework */; };
 		4FF238AC179866C00084BB7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF238AB179866C00084BB7D /* Foundation.framework */; };
 		4FF238AE179866C00084BB7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF238AD179866C00084BB7D /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FED32A817986F30005A00F0 /* NSCharacterSet+PrintCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCharacterSet+PrintCharacters.h"; sourceTree = "<group>"; };
+		4FED32A917986F30005A00F0 /* NSCharacterSet+PrintCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCharacterSet+PrintCharacters.m"; sourceTree = "<group>"; };
 		4FF238A6179866C00084BB7D /* FRCharacterSetPrinting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRCharacterSetPrinting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF238A9179866C00084BB7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4FF238AB179866C00084BB7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,8 @@
 				4FF238C2179866C00084BB7D /* FRViewController.m */,
 				4FF238C4179866C00084BB7D /* FRViewController.xib */,
 				4FF238B0179866C00084BB7D /* Supporting Files */,
+				4FED32A817986F30005A00F0 /* NSCharacterSet+PrintCharacters.h */,
+				4FED32A917986F30005A00F0 /* NSCharacterSet+PrintCharacters.m */,
 			);
 			path = FRCharacterSetPrinting;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				4FF238B6179866C00084BB7D /* main.m in Sources */,
 				4FF238BA179866C00084BB7D /* FRAppDelegate.m in Sources */,
 				4FF238C3179866C00084BB7D /* FRViewController.m in Sources */,
+				4FED32AA17986F30005A00F0 /* NSCharacterSet+PrintCharacters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				4FF238CB179866C00084BB7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
